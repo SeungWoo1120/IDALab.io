@@ -6,7 +6,7 @@
 ### IDAL 홈페이지 관리 핵심파일
 - ```_config.yml```을 통해서 홈페이지 Title과 description, 메인 화면 텍스트를 변경할 수 있습니다.
 - ```_includes/*.html``` 및 ```_layouts/default.html```  파일을 통해서 홈페이지 내부의 모든 내용을 변경할 수 있습니다.
-- ```assets/css/main.css```를 통해서 요소들의 속성을 정의해줄 수 있습니다.
+- ```assets/css/main.css```를 통해서 요소들의 속성을 수정하고 정의해줄 수 있습니다.
 - 모든 이미지는 ```assets/img/...```에 저장해서 사용해주세요.
 
 ### 온라인에서 작업하는 방법
