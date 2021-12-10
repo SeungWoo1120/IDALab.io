@@ -3593,7 +3593,7 @@ sub,sup {
 	width:33.3%;
 	text-align:center;
 	font-size:1.1rem;
-	/*margin-top:75px;*/
+	padding-bottom:50px;
 }
 .user-members-students-div {
 	display:flex;
@@ -3603,6 +3603,15 @@ sub,sup {
 	flex-direction:row;
 	justify-content:space-between
 }
+.contents-down h3{
+	padding:0;
+	margin-top:1em;
+	line-height:1.25;
+	color:#333;
+	font-size:1.5rem
+}
+.
+
 
 @media (min-width:0px) and (max-width:777px) {
 	.user-members-student {
@@ -3627,6 +3636,12 @@ sub,sup {
 		vertical-align:center;
 		margin-top:-5%;
 		height:45%;
+	}
+	.contents-down h3{
+		margin-top:1em;
+		line-height:1.25;
+		color:#333;
+		font-size:1.5rem
 	}
 	.contents-down ul {
 		text-align:left;
@@ -3843,6 +3858,9 @@ sub,sup {
 	margin-top:50px;
 	text-align:center
 }
+.upsss{
+	text-align:center
+}
 .ups .icon {
 	color:#000;
 	text-align:center
@@ -3859,4 +3877,5 @@ sub,sup {
 	text-align:center;
 	vertical-align:center;
 	clear:both;
+	
 }
