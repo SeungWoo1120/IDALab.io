@@ -18,6 +18,8 @@
    - [해당 링크](https://rubyinstaller.org/downloads/)에서 Ruby+DevKit 2.x.x 버젼을 다운받습니다.
    - ruby를 설치하고, ruby prompt를 켭니다.
    - ```gem install jekyll bundler```을 실행하여 jekyll과 필요한 gem 파일을 설치합니다.
+   - 만약 당신이 ruby 3.0을 다운받았다면...?
+     - ```bundle install``` ->> ```bundle add webrick```을 하여 세팅합니다.
 - ```$ git clone``` 혹은 ```$ git pull```을 통해 해당 레포지토리를 로컬 pc의 적절한 디렉토리로 끌어옵니다.
 - Ruby prompt를 켜고 로컬 레포지토리로 이동한 후, ```jekyll serve```를 입력합니다.
 - serve를 실행하면 localhost:4000에서 자신이 작업하는 홈페이지의 모습을 바로 확인할 수 있습니다.
